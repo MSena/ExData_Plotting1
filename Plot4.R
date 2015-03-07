@@ -18,7 +18,7 @@ data$measureTime <- as.POSIXct(strptime(paste(data$Date, data$Time),"%d/%m/%Y %T
 png(file = "Plot4.png", width = 480, height = 480, units = "px")
 
 ##Setting appropriate graphic parameters
-par(mfrow = c(2,2), mar = c(5,5,1,1))
+par(mfrow = c(2,2), mar = c(5,5,3,1))
 
 ## produce multiplots as requested (note: using bty argument for the 3rd plot legend)
 with(data,{
